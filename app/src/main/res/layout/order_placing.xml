@@ -832,7 +832,9 @@
                 android:id="@+id/continue_payment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CONTINUE"/>
+                android:background="@drawable/continue2_background"
+                android:textColor="@color/white"
+                android:text="Payout"/>
 
         </LinearLayout>
 

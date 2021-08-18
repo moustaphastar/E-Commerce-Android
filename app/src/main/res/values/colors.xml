@@ -9,4 +9,11 @@
     <color name="green2">#00B75F</color>
     <color name="grey">#4D556A</color>
     <color name="purple">#874AFF</color>
+<!--Custom colors for Payoneer Testing-->
+    <color name="custom_darkgray">#333333</color>
+    <color name="custom_darkgray_alpha32">#CC333333</color>
+    <color name="custom_gray">#8F9499</color>
+    <color name="custom_lightgray">#F0F1F3</color>
+    <color name="custom_blue">#0043AA</color>
+    <color name="custom_red">#FF4800</color>
 </resources>
