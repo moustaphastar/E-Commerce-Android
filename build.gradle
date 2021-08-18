@@ -18,6 +18,9 @@ allprojects {
         jcenter()
 
         maven { url "https://jitpack.io" }
+        maven {
+            url "https://packagecloud.io/optile/android/maven2"
+        }
     }
 }
 

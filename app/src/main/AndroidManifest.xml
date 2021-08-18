@@ -43,6 +43,16 @@
         <activity android:name=".view.AllCategoryActivity"/>
         <activity android:name=".view.MyOrdersActivity"/>
         <activity android:name=".view.OrderDetailsActivity"/>
+        <activity
+            android:name="com.payoneer.checkout.redirect.PaymentRedirectActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="${applicationId}.mobileredirect"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
 
     </application>
 

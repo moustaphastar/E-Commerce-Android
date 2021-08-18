@@ -72,4 +72,5 @@ dependencies
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
 
     implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+    implementation "com.payoneer:checkout-android:0.71.0"
 }
